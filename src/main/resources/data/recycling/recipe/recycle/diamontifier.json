@@ -1,0 +1,18 @@
+{
+  "type": "recycling:powder_recycler",
+  "input": {
+    "item": "recycling:diamond_modifier",
+    "count": 1
+  },
+  "output": [
+    { "item": "minecraft:diamond", "count": 1 },
+    { "item": "minecraft:dried_kelp_block", "count": 1 },
+    { "item": "minecraft:diamond", "count": 1 },
+    { "item": "minecraft:dried_kelp_block", "count": 1 },
+    { "item": "minecraft:dried_kelp_block", "count": 1 },
+    { "item": "minecraft:dried_kelp_block", "count": 1 },
+    { "item": "minecraft:diamond", "count": 1 },
+    { "item": "minecraft:dried_kelp_block", "count": 1 },
+    { "item": "minecraft:diamond", "count": 1 }
+  ]
+}

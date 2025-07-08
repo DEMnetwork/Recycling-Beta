@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "recycling:block/powder_recycler" }
+  }
+}

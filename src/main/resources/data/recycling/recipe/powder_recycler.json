@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "0#0",
+        "#b#",
+        "0i0"
+    ],
+    "key": {
+        "#": "recycling:blades",
+        "i": "minecraft:furnace",
+        "0": "minecraft:iron_block",
+        "b": "minecraft:hopper"
+    },
+    "result": {
+        "id": "recycling:powder_recycler",
+        "count": 1
+    }
+}

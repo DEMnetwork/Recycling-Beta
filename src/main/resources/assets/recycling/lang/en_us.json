@@ -1,0 +1,10 @@
+{
+    "item.recycling.blades": "Recycling Blades",
+    "item.recycling.powder_recycler": "Powder Recycler",
+    "item.recycling.diamond_modifier": "Diamontifier",
+    "advancement.recycling.root.description": "Start your journey with the mod 'Recycling'!", 
+    "text.powder_recycler.gui.name": "Powder Recycler Interface",
+    "gui.button.recycle.text": "Recycle",
+    "text.powder_recycler.error.unrecyclable": "\u00a7cThis item cannot be recycled!",
+    "group.recycling.modifier": "Recycling Modifiers"
+}

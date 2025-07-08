@@ -1,0 +1,18 @@
+{
+  "type": "recycling:powder_recycler",
+  "input": {
+    "item": "recycling:powder_recycler",
+    "count": 1
+  },
+  "output": [
+    { "item": "minecraft:iron_block", "count": 1 },
+    { "item": "recycling:blades", "count": 1 },
+    { "item": "minecraft:iron_block", "count": 1 },
+    { "item": "recycling:blades", "count": 1 },
+    { "item": "minecraft:hopper", "count": 1 },
+    { "item": "recycling:blades", "count": 1 },
+    { "item": "minecraft:iron_block", "count": 1 },
+    { "item": "minecraft:furnace", "count": 1 },
+    { "item": "minecraft:iron_block", "count": 1 }
+  ]
+}

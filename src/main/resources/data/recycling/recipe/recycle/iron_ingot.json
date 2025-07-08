@@ -1,0 +1,10 @@
+{
+  "type": "recycling:powder_recycler",
+  "input": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  },
+  "output": [
+    { "item": "minecraft:iron_nugget", "count": 9 }
+  ]
+}

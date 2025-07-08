@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "recycling",
+	"version": "v1.0.0-beta",
+	"name": "Recycling",
+	"description": "Recycles mistakes and trash. Revamped on beta",
+	"authors": [
+		"DEMNetwork(ArthurArakaki)"
+	],
+	"contact": {
+		"homepage": "https://dem-network-corporation.github.io/Recycling",
+		"sources": "https://github.com/DEM-Network-Corporation/Recycling"
+	},
+	"license": "MIT",
+	"icon": "assets/recycling/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.demnetwork.recycling.Recycling"
+		],
+		"fabric-datagen": [
+			"io.github.demnetwork.recycling.RecyclingDataGenerator"
+		],
+		"client": [
+			"io.github.demnetwork.recycling.RecyclingClient"
+		]
+	},
+	"mixins": [
+		"recycling.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

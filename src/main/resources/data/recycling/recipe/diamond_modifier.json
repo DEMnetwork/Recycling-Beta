@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i#i",
+        "###",
+        "i#i"
+    ],
+    "key": {
+        "#": "minecraft:dried_kelp_block",
+        "i": "minecraft:diamond"
+    },
+    "result": {
+        "id": "recycling:diamond_modifier",
+        "count": 1
+    }
+}

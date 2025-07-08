@@ -1,0 +1,10 @@
+{
+    "item.recycling.blades": "Lâminas de Reciclagem",
+    "item.recycling.powder_recycler": "Reciclador de Pô",
+    "item.recycling.diamond_modifier": "Diamantificador",
+    "advancement.recycling.root.description": "Comece sua jornada com o mod 'Recycling'!", 
+    "text.powder_recycler.gui.name": "Interface do Reciclador de Pô",
+    "gui.button.recycle.text": "Reciclar",
+    "text.powder_recycler.error.unrecyclable": "\u00a7cEste Item não pode ser reciclado!",
+    "group.recycling.modifier": "Modificadores de Reciclagem"
+}

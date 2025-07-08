@@ -1,0 +1,17 @@
+{
+  "type": "recycling:powder_recycler",
+  "input": {
+    "item": "recycling:blades",
+    "count": 1
+  },
+  "output": [
+    { "item": "minecraft:air", "count": 1 },
+    { "item": "minecraft:iron_sword", "count": 1 },
+    { "item": "minecraft:air", "count": 1 },
+    { "item": "minecraft:iron_sword", "count": 1 },
+    { "item": "minecraft:iron_ingot", "count": 1 },
+    { "item": "minecraft:iron_sword", "count": 1 },
+    { "item": "minecraft:air", "count": 1 },
+    { "item": "minecraft:iron_sword", "count": 1 }
+  ]
+}
