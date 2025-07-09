@@ -41,5 +41,5 @@ jobs:
     - name: Publish to GitHub Packages
       run: ./gradlew publish
       env:
-        USERNAME: DEMnetwork
+        USERNAME: ${{ env.GITHUB_TOKEN }}
         TOKEN: ${{ env.GITHUB_TOKEN }}
