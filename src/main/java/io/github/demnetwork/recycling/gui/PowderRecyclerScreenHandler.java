@@ -156,13 +156,17 @@ public class PowderRecyclerScreenHandler extends ScreenHandler {
             ItemStack mod = inventory.getStack(1);
             if (!mod.isEmpty()) {
                 PowderRecyclerModifer modifier = PowderRecyclerModifierRegistry.getModifer(mod);
-                for (int i = 0; i < outputs.length; i++) {
-                    outputs[i] = outputs[i].copy();
-                }
-                outputs = modifier.modifyOutput(mod, outputs).clone();
-                if (mod.getDamage() >= mod.getMaxDamage()) {
-                    LOGGER.info("Removing broken modifier");
-                    inventory.setStack(1, ItemStack.EMPTY.copy());
+                if (modifier != null) {
+                    for (int i = 0; i < outputs.length; i++) {
+                        outputs[i] = outputs[i].copy();
+                    }
+                    outputs = modifier.modifyOutput(mod, outputs).clone();
+                    if (mod.getDamage() >= mod.getMaxDamage()) {
+                        LOGGER.info("Removing broken modifier");
+                        inventory.setStack(1, ItemStack.EMPTY.copy());
+                    }
+                } else {
+                    LOGGER.warn("The Modifier Item is not a Modifier!");
                 }
             }
             for (int i = 0; i < outputs.length; i++) {
